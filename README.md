@@ -7,7 +7,7 @@ Because not every endpoint deserves your time.
 
 ---
 
-## Why this exists
+## Why i built this
 
 Recon usually gives you:
 - 500 URLs
@@ -30,7 +30,7 @@ It turns noise into direction.
 
 ## What it analyzes
 
-### 🧠 Smart Categorization (Weighted Scoring)
+### Scoring endpoints by impact
 
 Endpoints are classified based on:
 
@@ -45,9 +45,9 @@ Each category adds weighted points to a total risk score.
 
 ---
 
-### ⚠ Dangerous Parameters Detection
+### Catching dangerous parameters
 
-Parameters are analyzed and grouped by severity:
+Parameters are inspected and casually grouped by risk level:
 
 - **Critical** → `cmd`, `exec`, `eval`, `compile`
 - **High** → `file`, `path`, `url`, `redirect`
@@ -57,7 +57,7 @@ These increase scoring automatically.
 
 ---
 
-### 🔥 Aggressive Mode (Optional)
+###  Aggressive Mode (Optional)
 
 When enabled with `--aggressive`, the tool looks for:
 
@@ -84,7 +84,7 @@ Based on total weighted score:
 
 Higher score = higher priority.
 
-Simple.
+ahh...simple...
 
 ---
 
