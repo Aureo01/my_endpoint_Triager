@@ -3,7 +3,7 @@
 An advanced endpoint classification and risk scoring tool  
 built to help you **prioritize what actually matters**.
 
-Because not every endpoint deserves your time.
+Because chasing everything is how you waste hours.
 
 ---
 
@@ -24,7 +24,7 @@ Instead of randomly attacking endpoints, this tool:
 - Flags risky patterns
 - Suggests possible vulnerability classes
 
-It turns noise into direction.
+It converts chaos into clear priorities.
 
 ---
 
@@ -41,7 +41,7 @@ Endpoints are classified based on:
 - File exposure & backups
 - High-risk operations (exec, command, upload, etc.)
 
-Each category adds weighted points to a total risk score.
+Each match stacks points onto a total score, so the sketchier the endpoint, the higher it climbs.
 
 ---
 
@@ -59,7 +59,7 @@ These increase scoring automatically.
 
 ###  Aggressive Mode (Optional)
 
-When enabled with `--aggressive`, the tool looks for:
+Turn on \--aggressive` and it goes a bit deeper, scanning for:
 
 - Potential IDOR patterns
 - Potential SSRF patterns
@@ -84,7 +84,7 @@ Based on total weighted score:
 
 Higher score = higher priority.
 
-ahh...simple...
+It’s simple… but it saves you a ridiculous amount of time.
 
 ---
 
